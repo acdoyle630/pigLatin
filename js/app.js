@@ -23,14 +23,20 @@ function translator () {
 	}
 	function unPig(word) {
 		word = word.split('');
+		if(word[word.length - 1] === 'y' && word[word.length - 2] === 'a'){
 		word.pop();
 		word.pop();
 		var firstLetter = word.pop();
 		var english = firstLetter + word.join('');
 		return english;
 	}
+	}
 	return {
 		findVowel,
 		unPig
 	};
 }
+
+
+var key = translator();
+console.log(key.unPig('ananabay'));
