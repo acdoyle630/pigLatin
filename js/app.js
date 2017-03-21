@@ -17,7 +17,6 @@ function translator () {
 				}
 		}
 		pigWord = word.splice(firstVowel).join('');
-		//console.log(pigWord);
 		begWord = word.splice(0, firstVowel).join('');
 		fullPig = pigWord + begWord + 'ay';
 		return fullPig;
@@ -34,7 +33,4 @@ function translator () {
 		findVowel,
 		unPig
 	};
-
 }
-var key = translator();
-console.log(key.unPig('eykay'));
