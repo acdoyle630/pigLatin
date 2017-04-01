@@ -1,0 +1,20 @@
+{
+  "name": "pigLatin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --watch test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acdoyle630/pigLatin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acdoyle630/pigLatin/issues"
+  },
+  "homepage": "https://github.com/acdoyle630/pigLatin#readme"
+}
